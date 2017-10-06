@@ -2,10 +2,22 @@
 <html>
   <head>
     <title>QuickVoxel</title>
+		<style>
+			body {
+				overflow: hidden;
+				margin: 0;
+				width: 100vw;
+				height: 100vh;
+			}
+			canvas, #app {
+				width: 100%;
+				height: 100%;
+			}
+		</style>
   </head>
   <body>
-    <div ip="app">
-    </div>
-    <script type="text/javascript" src="dist/app.js"></script>
+		<div id="app">
+		</div>
+    <script type="text/javascript" src="dist/app.umd.js"></script>
   </body>
 </html>
